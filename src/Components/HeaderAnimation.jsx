@@ -5,7 +5,7 @@ const ExampleComponent = () => {
     <TypeAnimation
       sequence={[
         `Hello I'm M.Dipashri Singha`, // Types 'One'
-        3000, // Waits 1s
+        5000, // Waits 1s
        
         () => {
           console.log('Sequence completed');
