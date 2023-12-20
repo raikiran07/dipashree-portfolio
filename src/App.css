@@ -104,7 +104,7 @@ main{
 }
 
 .social-image img{
-  width:30px;
+  width:25px;
   border-radius:50%;
 }
 
@@ -365,8 +365,16 @@ footer{
   position:absolute;
 }
 
-.web{
+.c{
+  width:40%;
+}
+
+.cpp{
   width:60%;
+}
+
+.sql{
+  width:80%;
 }
 
 .dsa{
@@ -374,11 +382,11 @@ footer{
 }
 
 .java{
-  width:40%;
+  width:50%;
 }
 
 .python{
-  width:90%;
+  width:70%;
 }
 
 .ui{

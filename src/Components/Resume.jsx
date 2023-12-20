@@ -97,12 +97,7 @@ const Resume = () => {
             </div>
        
         <ul className="pl-8 skill-list flex flex-wrap gap-2">
-           <li>
-           Webdevelopment
-           <p className="bar">
-             <span className="progress-bar web"></span>
-           </p>
-           </li>
+          
            <li>
            Datastructure & Algorithm
            <p className="bar">
@@ -126,9 +121,21 @@ const Resume = () => {
              <span className="progress-bar python"></span>
            </p>
            </li>
-           <li>Ui/Ux Designing
+           <li>SQL
            <p className="bar">
-             <span className="progress-bar ui"></span>
+             <span className="progress-bar sql"></span>
+           </p>
+           </li>
+           <li>
+           C Programming
+           <p className="bar">
+             <span className="progress-bar c"></span>
+           </p>
+           </li>
+           <li>
+           C++
+           <p className="bar">
+             <span className="progress-bar cpp"></span>
            </p>
            </li>
            

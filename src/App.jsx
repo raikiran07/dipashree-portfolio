@@ -2,7 +2,7 @@ import { useState,useEffect,useRef } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Profile from './assets/profile-pic.png'
+import Profile from './assets/dipa-profile.jpg'
 import Twitter from './assets/twitter.png'
 import Github from './assets/github.png'
 import Star from './assets/star.png'
@@ -33,7 +33,7 @@ function App() {
           
         </h1>
         <p className="about-me text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio accusamus ipsum atque earum praesentium, possimus exercitationem quasi, harum pariatur expedita minus, necessitatibus nobis ullam? Praesentium aliquid nulla nemo eos eius adipisci, sit accusantium! Tempora sapiente exercitationem blanditiis enim cum perferendis.
+        I am M. Dipashri Singha, a backend developer from Guwahati, Assam. I hold a B.Tech degree in computer science from Assam Downtown University.
         </p>
 
         <div className="social-links">
