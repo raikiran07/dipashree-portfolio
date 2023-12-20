@@ -9,6 +9,7 @@ import Star from './assets/star.png'
 import MobileSidebar from './Components/MobileSidebar'
 import Resume from './Components/Resume'
 import Contact from './Components/Contact'
+import HeaderText from './Components/HeaderAnimation'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,11 +27,14 @@ function App() {
       <div className="header container" id="about">
         
     
-        <h1 className="white">Hello, I'm <br></br>
+        {/* <h1 className="white">Hello, I'm <br></br>
         <span className="highlight">
         Dipashree 
         </span> Singha.
           
+        </h1> */}
+        <h1>
+          <HeaderText />
         </h1>
         <p className="about-me text">
         I am M. Dipashri Singha, a backend developer from Guwahati, Assam. I hold a B.Tech degree in computer science from Assam Downtown University.
