@@ -37,7 +37,7 @@ function App() {
           <HeaderText />
         </h1>
         <p className="about-me text">
-        I am M. Dipashri Singha, a backend developer from Guwahati, Assam. I hold a B.Tech degree in computer science from Assam Downtown University.
+        I am a backend developer from Guwahati, Assam. I hold a B.Tech degree in computer science from Assam Downtown University.
         </p>
 
         <div className="social-links">
@@ -229,7 +229,7 @@ function App() {
       </main>
       <footer>
         <p className="text">
-        <span className="highlight">&copy;</span> Dipashree Singha <span className="highlight">2023</span>
+        <span className="highlight">&copy;</span> Dipashree Singha <span className="highlight">2024</span>
         </p>
       
       </footer>
