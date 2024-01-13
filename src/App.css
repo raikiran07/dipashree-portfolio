@@ -52,8 +52,10 @@ main{
 
 
 .header > h1{
-  font-size:3rem;
+  
   margin-top:2rem;
+  font-size:3rem;
+  padding-right:5px;
 }
 
 .highlight{
@@ -361,7 +363,7 @@ footer{
   display:inline-block;
   height:5px;
   width:80%;
-  background-color:#76b4f5;
+  background-color:#ffbf00be;
   position:absolute;
 }
 
@@ -391,6 +393,14 @@ footer{
 
 .ui{
   width:50%;
+}
+
+/* contact styling */
+.bg-gray{
+  outline:4px solid #ffbf00be;
+  margin-top:0.4rem;
+  background-color:#d7d5d5;
+  
 }
 
 /* @media screen and (min-width:) */

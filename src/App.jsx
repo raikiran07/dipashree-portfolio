@@ -10,6 +10,7 @@ import MobileSidebar from './Components/MobileSidebar'
 import Resume from './Components/Resume'
 import Contact from './Components/Contact'
 import HeaderText from './Components/HeaderAnimation'
+import { motion,useInView,useAnimation } from "framer-motion"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,41 +28,58 @@ function App() {
       <div className="header container" id="about">
         
     
-        {/* <h1 className="white">Hello, I'm <br></br>
+        <motion.h1 className="white"
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1}}
+        transition={{duration:2}}
+        >Hello, I'm <br></br>
         <span className="highlight">
         Dipashree 
         </span> Singha.
           
-        </h1> */}
-        <h1>
+        </motion.h1>
+        {/* <h1>
           <HeaderText />
-        </h1>
+        </h1> */}
         <p className="about-me text">
         I am a backend developer from Guwahati, Assam. I hold a B.Tech degree in computer science from Assam Downtown University.
         </p>
 
         <div className="social-links">
-          <div className="profile social-image">
+          <motion.div className="profile social-image"
+           initial={{ opacity: 0 }}
+           whileInView={{ opacity: 1}}
+           transition={{duration:3}}
+          
+          >
             <img src={Profile} alt="profile image" />
-          </div>
+          </motion.div>
           <div className="twitter  social-image">
           
           <div>
             <img src={Twitter} alt="twitter image" />
           </div>
-          <p className="text">
+          <motion.p className="text"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1}}
+          transition={{duration:3}}
+          >
             <a href="#" target="_blank">Twitter</a>
-          </p>
+          </motion.p>
           </div>
           <div className="github  social-image">
             <div>
               <img src={Github} alt="github icon" />
             </div>
-            <p className="text">
+            <motion.p className="text"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1}}
+            transition={{duration:3}}
+            >
               <a href="#" target="_blank">
               Github
               </a>
-           </p>
+           </motion.p>
               </div>
         </div>
       </div>
@@ -73,7 +91,11 @@ function App() {
         </div>
         
         <div className="project-container">
-          <div className="project-item">
+          <motion.div className="project-item"
+          initial={{ opacity: 0}}
+          whileInView={{ opacity: 1}}
+          transition={{duration:3,delay:1}}
+          >
             <p className="project-language line-spacing">
               JAVASCRIPT
             </p>
@@ -90,9 +112,13 @@ function App() {
               <p>5</p>
             </div>
 
-          </div>
+          </motion.div>
 
-          <div className="project-item">
+          <motion.div className="project-item"
+          initial={{ opacity: 0}}
+          whileInView={{ opacity: 1}}
+          transition={{duration:3,delay:1}}
+          >
             <p className="project-language line-spacing">
               REACTJS
             </p>
@@ -109,9 +135,13 @@ function App() {
               <p>10</p>
             </div>
 
-          </div>
+          </motion.div>
 
-          <div className="project-item">
+          <motion.div className="project-item"
+          initial={{ opacity: 0}}
+          whileInView={{ opacity: 1}}
+          transition={{duration:3,delay:1}}
+          >
             <p className="project-language line-spacing">
               HTML & CSS
             </p>
@@ -128,8 +158,12 @@ function App() {
               <p>20</p>
             </div>
 
-          </div>
-          <div className="project-item">
+          </motion.div>
+          <motion.div className="project-item"
+          initial={{ opacity: 0}}
+          whileInView={{ opacity:1}}
+          transition={{duration:3,delay:1}}
+          >
             <p className="project-language line-spacing">
               HTML & CSS
             </p>
@@ -146,8 +180,12 @@ function App() {
               <p>20</p>
             </div>
 
-          </div>
-          <div className="project-item">
+          </motion.div>
+          <motion.div className="project-item"
+          initial={{ opacity: 0}}
+          whileInView={{ opacity: 1}}
+          transition={{duration:3}}
+          >
             <p className="project-language line-spacing">
               HTML & CSS
             </p>
@@ -164,43 +202,8 @@ function App() {
               <p>20</p>
             </div>
 
-          </div>
-          <div className="project-item">
-            <p className="project-language line-spacing">
-              HTML & CSS
-            </p>
-            <h3 className="project-title">
-              Ludo.play
-            </h3>
-
-            <p className="text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam recusandae dolores ea perferendis laudantium dolore adipisci, eveniet exercitationem fugit suscipit aperiam.
-            </p>
-
-            <div className="rate-container text">
-              <img src={Star} alt="star image" style={{width:"15px"}} />
-              <p>20</p>
-            </div>
-
-          </div>
-          <div className="project-item">
-            <p className="project-language line-spacing">
-              HTML & CSS
-            </p>
-            <h3 className="project-title">
-              Ludo.play
-            </h3>
-
-            <p className="text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam recusandae dolores ea perferendis laudantium dolore adipisci, eveniet exercitationem fugit suscipit aperiam.
-            </p>
-
-            <div className="rate-container text">
-              <img src={Star} alt="star image" style={{width:"15px"}} />
-              <p>20</p>
-            </div>
-
-          </div>
+          </motion.div>
+         
         </div>
 
         <div className="container resume-container" id="resume">

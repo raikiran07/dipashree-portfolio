@@ -17,7 +17,7 @@ const Contact = () => {
           id="email"
           type="email" 
           name="email"
-          className="text"
+          className="text bg-gray"
         />
         <ValidationError 
           prefix="Email" 
@@ -31,7 +31,7 @@ const Contact = () => {
         <textarea
           id="message"
           name="message"
-          className="text"
+          className="text bg-gray"
         />
         <ValidationError 
           prefix="Message" 
